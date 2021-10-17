@@ -1,12 +1,12 @@
 import { SelectCity } from "https://code4fukui.github.io/select-city/select-city.js";
 
 class InputLGCode extends SelectCity {
-  async init() {
-    await super.init();
+  async init(opts) {
+    await super.init(opts);
     this.appendChild(this.inlgcode);
   }
   get value() {
-    console.log(super.lgcode);
+    //console.log(super.lgcode);
     return super.lgcode;
   }
   set value(code) {
