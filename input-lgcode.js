@@ -9,7 +9,6 @@ class InputLGCode extends SelectCity {
     this.appendChild(this.inlgcode);
   }
   get value() {
-    //console.log(super.lgcode);
     return super.lgcode;
   }
   set value(code) {

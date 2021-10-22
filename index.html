@@ -14,16 +14,18 @@
 <p><button id="set">福井県鯖江市をセット</button></p>
 
 <script type="module">
-city.onchange = () => {
-  selected.value = city.value;
-};
-set.onclick = () => {
-  city.value = "18207"; //  = "福井県鯖江市";
+onload = () => {
+  city.onchange = () => {
+    selected.value = city.value;
+  };
+  set.onclick = () => {
+    city.value = "182079"; //  = "福井県鯖江市";
+  };
 };
 </script>
 
 <hr>
-<input-lgcode id="city" required=required></input-lgcode><br>
+<input-lgcode id="city2" required=required></input-lgcode><br>
 
 <style>
 .required {
