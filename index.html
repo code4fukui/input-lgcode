@@ -7,19 +7,30 @@
 
 <h1>input-lgcode tag</h1>
 <script type="module" src="./input-lgcode.js"></script>
+<script type="module" src="./input-lgcode-ward.js"></script>
 
 <input-lgcode id="city"></input-lgcode><br>
+<input-lgcode-ward id="ward"></input-lgcode-ward><br>
 
 <p><input id="selected"></p>
 <p><button id="set">福井県鯖江市をセット</button></p>
+<p><button id="set2">北海道札幌市中央区をセット</button></p>
 
 <script type="module">
 onload = () => {
   city.onchange = () => {
     selected.value = city.value;
   };
+  ward.onchange = () => {
+    selected.value = ward.value;
+  };
   set.onclick = () => {
     city.value = "182079"; //  = "福井県鯖江市";
+    ward.value = "182079";
+  };
+  set2.onclick = () => {
+    city.value = "011011";
+    ward.value = "011011";
   };
 };
 </script>
