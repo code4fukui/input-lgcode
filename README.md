@@ -25,3 +25,8 @@ set.onclick = () => {
 };
 </script>
 ```
+
+## dependencies
+
+- [select-city](https://github.com/code4fukui/select-city)
+- [LGCode](https://github.com/code4fukui/LGCode)
