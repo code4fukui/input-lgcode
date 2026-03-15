@@ -1,15 +1,17 @@
 # input-lgcode
 
-地方公共団体コードを簡単に入力できる input-lgcodeタグ
+地方公共団体コードを簡単に入力できる web コンポーネントです。
 
 ## デモ
-
 https://code4fukui.github.io/input-lgcode/
 
 ## 機能
-
 - 地方公共団体コードを入力できる
 - 選択した地方公共団体コードを取得・設定できる
+
+## 必要環境
+- [select-city](https://github.com/code4fukui/select-city)
+- [LGCode](https://github.com/code4fukui/LGCode)
 
 ## 使い方
 
@@ -32,5 +34,4 @@ set.onclick = () => {
 ```
 
 ## ライセンス
-
 MIT License
