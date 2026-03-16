@@ -2,7 +2,7 @@
 
 > 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
-A web component that provides an input field for local government (Japan) codes.
+A web component that provides an input field for selecting local government codes in Japan.
 
 ## Demo
 [Code4Fukui github.io demo](https://code4fukui.github.io/input-lgcode/)
@@ -37,4 +37,4 @@ set.onclick = () => {
 ```
 
 ## License
-MIT License
+MIT License — see [LICENSE](LICENSE).

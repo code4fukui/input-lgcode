@@ -1,9 +1,6 @@
 # input-lgcode
 
-地方公共団体コードを簡単に入力できる web コンポーネントです。
-
-## デモ
-https://code4fukui.github.io/input-lgcode/
+地方公共団体コードを簡単に入力できるWeb コンポーネントです。地方公共団体コードには市区町村レベルの2桁コードと、さらに詳細な5桁コードの両方に対応しています。
 
 ## 機能
 - 地方公共団体コードを入力できる
@@ -21,7 +18,7 @@ https://code4fukui.github.io/input-lgcode/
 <input-lgcode id="lgcode"></input-lgcode><br>
 
 <p><input id="selected"></p>
-<p><button id="set">18207(福井県鯖江市)をセット</button></p>
+<p><button id="set">18207 (福井県鯖江市) をセット</button></p>
 
 <script type="module">
 lgcode.onchange = () => {
